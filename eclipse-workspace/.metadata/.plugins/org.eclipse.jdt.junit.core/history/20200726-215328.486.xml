@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="SampleBDDProject" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="Runner.TestRunner" time="7.426">
+    <testsuite name="Feature: Test Site Feature" time="7.426">
+      <testsuite name="Scenario: Testind Demo site" time="7.426">
+        <testcase name="Given I'm on TestSite home page" classname="Scenario: Testind Demo site" time="2.518"/>
+        <testcase name="When I click on Elements icon" classname="Scenario: Testind Demo site" time="1.507"/>
+        <testcase name="And I Click on Text Box icon" classname="Scenario: Testind Demo site" time="3.167"/>
+        <testcase name="Then I enter the required details" classname="Scenario: Testind Demo site" time="0.227"/>
+        <testcase name="And I click on Submit button" classname="Scenario: Testind Demo site" time="0.007"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

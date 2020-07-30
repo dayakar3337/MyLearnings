@@ -1,0 +1,53 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("LoginTest.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Chrome Test Feature",
+  "description": "",
+  "id": "chrome-test-feature",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 4,
+  "name": "Chrome browser test",
+  "description": "",
+  "id": "chrome-test-feature;chrome-browser-test",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 6,
+  "name": "User launched Chrome browser",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "User open Google Home page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "I verify the the page displays search text box",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginStepDefinition.user_is_on_Home_Page()"
+});
+formatter.result({
+  "duration": 4653293600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDefinition.user_Navigate_to_Home_Page()"
+});
+formatter.result({
+  "duration": 3551038200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDefinition.user_enters_UserName_and_Password()"
+});
+formatter.result({
+  "duration": 945122000,
+  "status": "passed"
+});
+});

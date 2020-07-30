@@ -1,0 +1,22 @@
+package Runner;
+
+import org.junit.runner.RunWith;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber; 
+
+
+@RunWith(Cucumber.class) 
+
+@CucumberOptions( 
+
+Features = "Feature"--- where is the feature file locate  
+
+,glie={"stepDefinition"}--- where is the step definition located 
+
+) 
+
+public class TestRunner {
+	
+	
+
+}

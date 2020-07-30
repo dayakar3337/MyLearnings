@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="SampleBDDProject" tests="3" started="3" failures="0" errors="0" ignored="3">
+  <testsuite name="Runner.TestRunner" time="0.147">
+    <testsuite name="Feature: Chrome Test Feature" time="0.147">
+      <testsuite name="Scenario: Chrome browser test" time="0.147">
+        <testcase name="Given User launched Chrome browser" classname="Scenario: Chrome browser test" time="0.007" ignored="true"/>
+        <testcase name="When User open Google Home page" classname="Scenario: Chrome browser test" time="0.0" ignored="true"/>
+        <testcase name="Then I verify the the page displays search text box" classname="Scenario: Chrome browser test" time="0.14" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+<testcase classname="Test Site Feature" name="Testind Demo site" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given I'm on TestSite home page.............................................undefined
+When I click on Elements icon...............................................undefined
+And I Click on Text Box icon................................................undefined
+Then I enter the required details...........................................undefined
+And I  click on Submit button...............................................undefined
+]]></failure>
+</testcase>
+</testsuite>

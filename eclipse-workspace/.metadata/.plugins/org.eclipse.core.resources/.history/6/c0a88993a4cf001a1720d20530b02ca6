@@ -1,0 +1,67 @@
+package StepDefinition;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class TestSiteStepDefinition {
+
+	public static WebDriver driver;
+	@Given("^I'm on ToolsQA home page$")
+	public void i_m_on_ToolsQA_home_page() {
+		try {
+		    System.setProperty("webdriver.chrome.driver","C:\\workspace\\chromedriver.exe");
+			driver = new ChromeDriver();
+			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+			driver.get("https://demoqa.com/");
+		}
+		catch(Exception e) {
+			System.out.println("unable to navigate to test site" + e.getStackTrace());
+		}
+
+	}
+
+	@When("^I click on Elements icon$")
+	public void ClickOnElement() {
+	    
+	    
+	}
+
+	@When("^I Click on Text Box icon$")
+	public void i_Click_on_Text_Box_icon() throws Throwable {
+	    
+	    throw new PendingException();
+	}
+
+	@Then("^I enter the required details$")
+	public void i_enter_the_required_details() throws Throwable {
+	    
+	    throw new PendingException();
+	}
+
+	@Then("^I  click on Submit button$")
+	public void i_click_on_Submit_button() throws Throwable {
+	    
+	    throw new PendingException();
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,16 @@
+Feature: Chrome Test Feature 
+
+ 
+Scenario: Chrome browser test  
+
+Given User launched Chrome browser
+When User open Google Home page
+Then I verify the the page displays search text box
+
+ 
+Scenario: Create new Gmail account Test
+
+Given User is on gmail page
+When  User click on Gmail link 
+Then  I validate Experience Gmail on any device text present
+When  I click on Create an account 

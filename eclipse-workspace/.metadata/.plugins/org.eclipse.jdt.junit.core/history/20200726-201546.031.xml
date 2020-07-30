@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="SampleBDDProject" tests="8" started="8" failures="0" errors="0" ignored="7">
+  <testsuite name="Runner.TestRunner" time="0.037">
+    <testsuite name="Feature: Chrome Test Feature" time="0.009">
+      <testsuite name="Scenario: Chrome browser test" time="0.009" incomplete="true">
+        <skipped/>
+        <testcase name="Given User launched Chrome browser" classname="Scenario: Chrome browser test" time="0.001"/>
+        <testcase name="When User open Google Home page" classname="Scenario: Chrome browser test" time="0.008" ignored="true"/>
+        <testcase name="Then I verify the the page displays search text box" classname="Scenario: Chrome browser test" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Test Site Feature" time="0.002">
+      <testsuite name="Scenario: Testind Demo site" time="0.002" incomplete="true">
+        <skipped/>
+        <testcase name="Given I'm on TestSite home page" classname="Scenario: Testind Demo site" time="0.0" ignored="true"/>
+        <testcase name="When I click on Elements icon" classname="Scenario: Testind Demo site" time="0.0" ignored="true"/>
+        <testcase name="And I Click on Text Box icon" classname="Scenario: Testind Demo site" time="0.0" ignored="true"/>
+        <testcase name="Then I enter the required details" classname="Scenario: Testind Demo site" time="0.002" ignored="true"/>
+        <testcase name="And I  click on Submit button" classname="Scenario: Testind Demo site" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

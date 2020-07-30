@@ -1,0 +1,85 @@
+package StepDefinition;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+
+
+
+public class TestSiteStepDefinition {
+
+	WebDriver driver;
+	
+	@Given("^I'm on TestSite home page$")
+	public void TestSiteHomePage() {
+		try 
+		{
+		    System.setProperty("webdriver.chrome.driver","C:\\workspace\\chromedriver.exe");
+			driver = new ChromeDriver();
+			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+			driver.manage().window().maximize();
+			driver.get("https://demoqa.com/");
+			System.out.println("Navigate to test site successflly");
+		}
+		catch(Exception e)
+		{
+			System.out.println("unable to navigate to test site" + e.getStackTrace());
+		}
+
+	}
+
+	@When("^I click on Elements icon$")
+	public void ClickOnElementsIcon() {
+		try
+		{	
+			if(driver.findElement(by))
+			Thread.sleep(2000);
+			driver.findElement(By.xpath("(//div[contains(@class,'avatar mx-auto white')])[1]")).click();
+			System.out.println("Able to click on Elemets Icon");
+		}
+		catch(Exception e) 
+		{
+			System.out.println("Elements Icon is not clickable" + e.getStackTrace());
+		}
+	    
+	}
+
+	/*@When("^I Click on Text Box icon$")
+	public void ClickOnTextBoxIcon() {
+	    
+
+	}
+
+	@Then("^I enter the required details$")
+	public void EnterDetails() {
+	    
+	}
+
+	@Then("^I click on Submit button$")
+	public void ClickOnSubmitBtn() {
+	    
+
+	}*/
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

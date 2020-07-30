@@ -1,0 +1,15 @@
+Feature: Google Test Feature 
+
+ 
+
+Scenario: Gmail Login test  
+
+ 
+
+Given User is on Home Page  
+
+When User Navigate to Login Page 
+
+When User enters Username and Password 
+
+Then Message displayed Login Successfully 

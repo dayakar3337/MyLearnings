@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="SampleBDDProject" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="Runner.TestRunner" time="2.896">
+    <testsuite name="Feature: Google Test Feature" time="2.896">
+      <testsuite name="Scenario: Gmail Login test" time="2.896">
+        <testcase name="Given User launched Chrome browser" classname="Scenario: Gmail Login test" time="2.035"/>
+        <testcase name="When User open Google Home page" classname="Scenario: Gmail Login test" time="0.856"/>
+        <testcase name="Then I verify the the page displays search text box" classname="Scenario: Gmail Login test" time="0.005"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

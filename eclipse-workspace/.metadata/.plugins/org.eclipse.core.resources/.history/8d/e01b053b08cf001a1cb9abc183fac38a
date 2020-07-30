@@ -1,0 +1,60 @@
+package StepDefinition;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class LoginStepDefinition {
+
+	
+	 WebDriver driver; 
+	 @Given("^User is on Home Page$")
+	 public void user_is_on_Home_Page() throws Throwable {
+		    System.setProperty("webdriver.chrome.driver","C:\\workspace\\chromedriver.exe");
+			driver = new ChromeDriver();
+	        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	        driver.get("https://www.google.com/gmail/about/#");
+	        driver.manage().window().maximize();
+	     throw new PendingException();
+	 }
+		/*@Given("^User is on Home Page$")
+		public void user_is_on_Home_Page() throws Throwable {
+			System.setProperty("webdriver. chrome. driver","C:\\workspace\\chromedriver.exe");
+			driver = new ChromeDriver();
+	        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	        driver.get("https://www.google.com/gmail/about/#");
+	        driver.manage().window().maximize();
+	        throw new PendingException();
+		}*/
+
+		/*@When("^User Navigate to LogIn Page$")
+		public void user_Navigate_to_LogIn_Page() throws Throwable {
+		 driver.findElement(By.xpath("(//a[contains(.,'Sign in')])[2]")).click();
+		 throw new PendingException();
+		}
+
+		@When("^User enters UserName and Password$")
+		public void user_enters_UserName_and_Password() throws Throwable {
+			 driver.findElement(By.xpath("//input[contains(@type,'email')]")).sendKeys("dayakar.2009"); 
+		     driver.findElement(By.xpath("//div[@class='VfPpkd-RLmnJb']")).sendKeys(Keys.ENTER);
+		     driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Dayakar@2019");
+		     driver.findElement(By.xpath("//div[@class='VfPpkd-RLmnJb']")).sendKeys(Keys.ENTER);
+		     throw new PendingException();
+		}
+
+		@Then("^Message displayed Login Successfully$")
+		public void message_displayed_Login_Successfully() throws Throwable {
+		   driver.findElement(By.xpath("//div[@aria-label='Primary']")).isDisplayed();
+		   throw new PendingException();
+		}*/
+		
+		
+}

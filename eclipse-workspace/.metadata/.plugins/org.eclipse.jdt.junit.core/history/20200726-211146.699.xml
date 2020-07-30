@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="SampleBDDProject" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="Runner.TestRunner" time="3.399">
+    <testsuite name="Feature: Test Site Feature" time="3.399">
+      <testsuite name="Scenario: Testind Demo site" time="3.399">
+        <testcase name="Given I'm on TestSite home page" classname="Scenario: Testind Demo site" time="2.207"/>
+        <testcase name="When I click on Elements icon" classname="Scenario: Testind Demo site" time="1.188"/>
+        <testcase name="And I Click on Text Box icon" classname="Scenario: Testind Demo site" time="0.004"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,25 @@
+package Runner;
+
+import org.junit.runner.RunWith;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber; 
+
+
+
+@RunWith(Cucumber.class) 
+
+@CucumberOptions( 
+features = "C:\\Users\\DRetineni\\eclipse-workspace\\SampleBDDProject\\src\\main\\java\\Features" // path of the feature file
+,glue={"StepDefinition"}, // path of the step definition 
+monochrome = true, // to make the output redable 
+plugin = {"html:CucumberReports/cucumber-html-report", "json: CucumberReports/cucumber.json"},// if want to generate proper way or create any Html,Json
+dryRun = false
+
+
+) 
+
+public class TestRunner {
+	
+	
+
+}

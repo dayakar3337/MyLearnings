@@ -1,0 +1,9 @@
+Feature: Test Site Feature
+
+Scenario: Testind Demo site
+
+Given I'm on ToolsQA home page
+When I click on Elements icon
+And  I Click on Text Box icon
+Then I enter the required details 
+And  I  click on Submit button

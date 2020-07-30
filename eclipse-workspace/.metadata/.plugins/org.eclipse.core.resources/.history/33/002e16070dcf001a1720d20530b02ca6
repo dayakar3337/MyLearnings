@@ -1,0 +1,10 @@
+Feature: Google Test Feature 
+
+ 
+Scenario: Gmail Login test  
+
+Given User launched Chrome browser
+When User open Google Home page
+Then I verify the the page displays search text box
+
+ 

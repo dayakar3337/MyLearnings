@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="SampleBDDProject" tests="6" started="6" failures="0" errors="2" ignored="2">
+  <testsuite name="Runner.TestRunner" time="2.184">
+    <testsuite name="Feature: Chrome Test Feature" time="2.184">
+      <testsuite name="Scenario: Chrome browser test" time="2.076">
+        <testcase name="Given User launched Chrome browser" classname="Scenario: Chrome browser test" time="2.049"/>
+        <testcase name="When User open Google Home page" classname="Scenario: Chrome browser test" time="0.026"/>
+        <testcase name="Then I verify the the page displays search text box" classname="Scenario: Chrome browser test" time="0.0"/>
+      </testsuite>
+      <testsuite name="Scenario: Create new Gmail account Test" time="0.0" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at StepDefinition.LoginStepDefinition.GoogleHomePage(LoginStepDefinition.java:52)&#13;
+	at ✽.Given User is on gmail page(LoginTest.feature:13)&#13;
+&#13;
+</error>
+        <testcase name="Given User is on gmail page" classname="Scenario: Create new Gmail account Test" time="0.0">
+          <error>java.lang.NullPointerException&#13;
+	at StepDefinition.LoginStepDefinition.GoogleHomePage(LoginStepDefinition.java:52)&#13;
+	at ✽.Given User is on gmail page(LoginTest.feature:13)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Then I validate Experience Gmail on any device text present" classname="Scenario: Create new Gmail account Test" time="0.0" ignored="true"/>
+        <testcase name="When I click on Create an account" classname="Scenario: Create new Gmail account Test" time="0.056" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
